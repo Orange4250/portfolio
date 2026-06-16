@@ -764,8 +764,7 @@
 
       <a class="work-card" onclick="showProject('interest-meeting'); return false;" href="#">
         <div class="work-img">
-          <!-- REPLACE: <img src="images/interest-meeting.jpg" alt="Interest meeting graphic"> -->
-          <div class="work-img-placeholder"><span class="work-img-icon">📌</span>Add your interest<br>meeting graphic here<br><small style="display:block;margin-top:6px">src="images/interest-meeting.jpg"</small></div>
+          <img src="images/Screenshot 2026-06-16 024822.png alt="Interest meeting graphic"> 
         </div>
         <div class="work-info">
           <div class="work-title">Grew Axiom Social Media</div>
@@ -776,8 +775,7 @@
 
       <a class="work-card" onclick="showProject('senior-countdown'); return false;" href="#">
         <div class="work-img">
-          <!-- REPLACE: <img src="images/senior-countdown.jpg" alt="Senior countdown"> -->
-          <div class="work-img-placeholder"><span class="work-img-icon">📌</span>Add your senior<br>countdown post here</div>
+          <img src="Screenshot 2026-06-16 025056.png" alt="Senior countdown">
         </div>
         <div class="work-info">
           <div class="work-title">Senior Countdown Series</div>
@@ -848,7 +846,7 @@
           <div>
             <div class="exp-role">Founder & Content Creator</div>
             <div class="exp-org">Orangish Money (@orangish_money)</div>
-            <div class="exp-desc">Built a personal finance brand for Gen Z from scratch — name, logo (orange goldfish with a top hat), visual identity, and content strategy. 30K+ Instagram impressions. Running across Instagram, TikTok, Etsy, Fiverr, Redbubble, and Gumroad simultaneously while self-funding college expenses through bike delivery and digital commissions.</div>
+            <div class="exp-desc">Built a brand for Gen Z from scratch: name, logo (orange goldfish with a top hat), visual identity, and content strategy. 30K+ Instagram impressions. Running across Instagram, TikTok, Etsy, Fiverr, Redbubble, and Gumroad simultaneously while self-funding college expenses through bike delivery and digital commissions.</div>
           </div>
         </div>
 
@@ -857,7 +855,7 @@
           <div>
             <div class="exp-role">Business Subteam Captain · Outreach Coordinator · PR Director</div>
             <div class="exp-org">FIRST Robotics Team Axiom 4787</div>
-            <div class="exp-desc">Ran the team's Instagram account solo for four years — designed every post, wrote every caption, managed the content calendar. Created all team branding: merch, competition banners, flags, binders, and pitch presentations. Led STEM outreach nights for underserved youth in the Chicago area. 61K+ total impressions per Instagram Insights.</div>
+            <div class="exp-desc">Ran the team's Instagram account for four years: designed every post, wrote every caption, managed the content calendar. Created all team branding: merch, competition banners, flags, binders, and pitch presentations. Led STEM outreach nights for underserved youth in the Chicago area. 61K+ total impressions per Instagram Insights.</div>
           </div>
         </div>
 
@@ -874,7 +872,7 @@
           <div class="exp-date">Summer 2024</div>
           <div>
             <div class="exp-role">Software Engineering Program Experience</div>
-            <div class="exp-org">Uber Technologies</div>
+            <div class="exp-org">Basis Technologies</div>
             <div class="exp-desc">Shadowed software engineering teams and observed enterprise-scale technical operations firsthand.</div>
           </div>
         </div>
@@ -884,7 +882,7 @@
           <div>
             <div class="exp-role">Entrepreneurship Intern</div>
             <div class="exp-org">Future Founders</div>
-            <div class="exp-desc">Led a team to design and pitch a healthcare app prototype addressing rare disease challenges.</div>
+            <div class="exp-desc">Led a team to design and pitch a healthcare app prototype addressing rare disease challenges. PersonaMedica, linked on Github</div>
           </div>
         </div>
 
@@ -952,7 +950,6 @@
     <div class="contact-links">
       <a href="mailto:waniak425@gmail.com" class="contact-link">waniak425@gmail.com</a>
       <a href="https://www.linkedin.com/in/wania-khan-orange425" target="_blank" class="contact-link">LinkedIn</a>
-      <a href="https://www.instagram.com/orangish_money" target="_blank" class="contact-link">@orangish_money</a>
     </div>
   </div>
 
@@ -1023,7 +1020,7 @@
         <div>
           <div class="resume-entry-role">Business Subteam Captain · Outreach Coordinator · PR Director</div>
           <div class="resume-entry-org">FIRST Robotics Team Axiom 4787</div>
-          <div class="resume-entry-desc">Managed @axiom4787 Instagram solo for 4 years, growing to 61K+ views. Designed all team branding — merch, banners, flags, binders, and presentations. Led business subteam and organized STEM outreach for underserved youth.</div>
+          <div class="resume-entry-desc">Managed @axiom4787 Instagram for 4 years, growing to 61K+ views. Designed all team branding: merch, banners, flags, binders, and presentations. Led business subteam and organized STEM outreach for underserved youth.</div>
         </div>
         <div class="resume-entry-date">2022 – 2026</div>
       </div>
@@ -1041,7 +1038,7 @@
         <div>
           <div class="resume-entry-role">Founder & Content Creator</div>
           <div class="resume-entry-org">Orangish Money (@orangish_money)</div>
-          <div class="resume-entry-desc">Built a Gen Z personal finance brand from scratch — 30K+ views across Instagram and TikTok. Manage content strategy, video production, graphic design, and multiple self-employed income streams.</div>
+          <div class="resume-entry-desc">Built a brand from scratch: 30K+ views on Instagram and 2k on TikTok. Manage content strategy, video production, graphic design, and multiple self-employed income streams.</div>
         </div>
         <div class="resume-entry-date">2026 – Present</div>
       </div>
@@ -1117,8 +1114,8 @@ const PROJECTS = {
       `Wrote the caption and scheduled the post myself`,
     ],
     images: [
-      { placeholder: true, label: `Interest meeting graphic`, icon: `🎨` },
-      { placeholder: true, label: `Instagram story version`, icon: `📱` },
+      { src: 'images/Screenshot 2026-06-16 024822.png', alt: 'axiom insta' },
+      { src: 'images/Screenshot 2026-06-16 025326.png', alt: 'axiom insta interest meeting post' },
     ]
   },
   'senior-countdown': {
@@ -1126,16 +1123,16 @@ const PROJECTS = {
     title: `Senior Countdown Series`,
     intro: `A multi-post Instagram series I started to celebrate the graduating seniors of Team Axiom 4787.`,
     aboutTitle: `Where the idea came from`,
-    about: `Nobody was doing anything to mark the end of senior year on the account. I came up with a countdown format — one post per senior, in reverse order, leading up to the last competition. Each one had to feel personal, not templated, even though I was designing 10+ of them. I built a base layout and then customized every one individually.`,
+    about: `See one example above, Nobody was doing anything to mark the end of senior year on the account. I came up with a countdown format: one post per senior, in reverse order, leading up to the last competition. Each one had to feel personal, not templated, even though I was designing 10 of them. I built a base layout and then customized every one individually.`,
     what: [
-      `Came up with the series concept and pitched it to the team`,
+      `Check it out on @axiom4787`,
       `Built a flexible base template that still felt personal per person`,
       `Wrote each caption to reflect that specific senior's contributions`,
-      `Managed the posting schedule across the final weeks of the season`,
+      `Managed the posting schedule across the final weeks of the season`, 
     ],
     images: [
-      { placeholder: true, label: `Senior countdown post example`, icon: `🎓` },
-      { placeholder: true, label: `Full series preview`, icon: `📸` },
+      { src: 'images/Screenshot 2026-06-16 025056.png', alt: 'axiom insta, Fidel Post' },
+      { src: 'images/Screenshot 2026-06-16 025103.png', alt: 'axiom insta, Fidel Post' },
     ]
   },
   'merch': {
@@ -1199,11 +1196,11 @@ const PROJECTS = {
       `Designed the full brand identity: name, logo (hand-drawn digital art), color system, and voice`,
       `Built and manage content across Instagram, TikTok, and Pinterest`,
       `Set up and run storefronts on Etsy, Fiverr, Redbubble, and Gumroad`,
-      `Handle all production: scripting, filming, editing, and scheduling`,
+      `Check me out on Instagram @orangish_money`,
     ],
     images: [
-      { placeholder: true, label: `Brand identity / logo`, icon: `💰` },
-      { placeholder: true, label: `Instagram content samples`, icon: `📱` },
+      { src: 'Orangish Logo.png', alt: 'Orangish Money logo' },
+      { src: 'images/Screenshot 2026-06-16 025209.png', alt: 'Orangish Insta' },
     ]
   },
 };
