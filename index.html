@@ -710,6 +710,24 @@
 </head>
 <body>
 
+ <!--Alert-->
+ <div id="back-warning" style="
+  position: fixed;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #E87722;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  z-index: 9999;
+  font-weight: 400;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+">
+  Note: If the back button doesn’t work, click “Wania Khan” or “Back to portfolio” to return to the main page.
+</div>
+
 <nav>
   <a class="nav-name" onclick="showPage('home')" style="cursor:pointer">Wania Khan</a>
   <ul class="nav-links">
@@ -1098,6 +1116,12 @@
 
 
 <script>
+//ALERT
+ setTimeout(() => {
+  const el = document.getElementById("back-warning");
+  if (el) el.style.display = "none";
+}, 5000);
+ 
 // ── PROJECT DATA ──
 // To add/edit a project: update the object below.
 // To add images: replace the placeholder object with { src: 'images/filename.jpg', alt: 'description' }
